@@ -304,32 +304,3 @@ window = MainWindow()
 window.show()
 
 sys.exit(app.exec_())
-
-
-#company = input("Type the name: ")
-
-#l = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
-#     "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-
-#for i in l:
- #   company = i
-  #  # ask as long as no valid name is inputted for a company name
-   # doc = get_search_results(url, company)
-#
- #   # get the relevant infos to find the companies stock page and check the name
-  #  info = get_info(doc)
-   # print(len(info))
-#
- #   #sorted = get_sorted_matrice(url, company)
-  #  csv_name_creator(info)
-
-
-#dict_with_letters={"a": 3396, "b": 2244, "c": 3692, "d": 1245, "e": 1643, "f": 1347, "g": 1749, "h": 1343, "i": 1548, "j": 548, "k": 798,
-#                   "l": 1096, "m": 2144, "n": 1545, "o": 800, "p": 2048, "q": 199, "r": 1248, "s": 3686, "t": 1995, "u": 600, "v": 842,
-#                   "w": 796, "x": 149, "y": 199, "z": 348}
-#
-#dict_alphabet = [0]
-#count = 0
-#for i in dict_with_letters:
-#    dict_alphabet.append(dict_with_letters[i] + dict_alphabet[count])
-#    count += 1
